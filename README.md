@@ -40,15 +40,21 @@ php artisan serve
 ```
 O projeto estará disponível em: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
+### 📋 Telas do Sistema
+
 <p align="center">
   <img src="docs/Screenshot%202025-02-14%20at%2017-56-50%20VochTech.png" alt="Tela de Inicial" style="border: 3px solid black; padding: 10px;" />
 </p>
 A tela inicial apresenta o botão de iniciar sessão.
 
+_________________________________________________________________________________________________________________
+
 <p align="center">
   <img src="docs/Screenshot%202025-02-14%20at%2017-56-58%20VochTech.png" alt="Tela de Login" style="border: 3px solid black; padding: 10px;" />
 </p>
 A tela de login possui duas opções de login: Facebook e Google.
+
+_________________________________________________________________________________________________________________
 
 <p align="center">
   <img src="docs/Screenshot%202025-02-14%20at%2017-57-12%20VochTech.png" alt="Painel Administrativo" style="border: 3px solid black; padding: 10px;" />
@@ -61,20 +67,21 @@ A tela do Painel Administrativo fornece acesso às principais funcionalidades do
 
 No cabeçalho (header), há um botão para **Logout**(ao lado do botão de Painel), permitindo que o usuário encerre sua sessão com facilidade.
 
-### 📋 Telas do Sistema
-
 #### 📌 Tela de Grupos Econômicos
 <p align="center">
   <img src="docs/Screenshot%202025-02-14%20at%2017-57-25%20VochTech.png" alt="Tela de Grupos Economicos" style="border: 2px solid #000; padding: 5px;" />
 </p>
 Nesta tela, é possível listar todos os registros, cadastrar um novo grupo econômico, visualizar detalhes, editar e excluir registros.
 
+_________________________________________________________________________________________________________________
+
 #### 📌 Tela de Bandeiras
 <p align="center">
   <img src="docs/Screenshot%202025-02-14%20at%2017-57-31%20VochTech.png" alt="Tela de Bandeiras" style="border: 2px solid #000; padding: 5px;" />
 </p>
 Nesta tela, é possível listar todas as bandeiras cadastradas, adicionar novas, visualizar detalhes, editar e excluir registros.
-_______________________________________________________________________________________________________________________________________________________________________________
+
+_________________________________________________________________________________________________________________
 
 #### 📌 Tela de Unidades
 <p align="center">
@@ -82,17 +89,23 @@ ________________________________________________________________________________
 </p>
 Esta tela permite visualizar a lista de unidades cadastradas, adicionar novas unidades, visualizar detalhes, editar e excluir registros.
 
+_________________________________________________________________________________________________________________
+
 #### 📌 Tela de Colaboradores
 <p align="center">
   <img src="docs/Screenshot%202025-02-14%20at%2017-57-43%20VochTech.png" alt="Tela de Colaboradores" style="border: 2px solid #000; padding: 5px;" />
 </p>
 Na tela de colaboradores, é possível listar todos os colaboradores cadastrados, adicionar novos, visualizar detalhes, editar e excluir registros.
 
+_________________________________________________________________________________________________________________
+
 #### 📌 Tela de Auditoria
 <p align="center">
   <img src="docs/Screenshot%202025-02-14%20at%2017-57-50%20VochTech.png" alt="Tela de Auditoria" style="border: 2px solid #000; padding: 5px;" />
 </p>
 A tela de auditoria exibe um histórico detalhado de todas as ações realizadas no sistema, incluindo registros criados e modificados. Essa funcionalidade permite um acompanhamento preciso das alterações feitas pelos usuários.
+
+_________________________________________________________________________________________________________________
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
