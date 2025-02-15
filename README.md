@@ -40,15 +40,20 @@ php artisan serve
 ```
 O projeto estará disponível em: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-![Tela de Inicial](docs/Screenshot%202025-02-14%20at%2017-56-50%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-56-50%20VochTech.png" alt="Tela de Inicial" style="border: 3px solid black; padding: 10px;" />
+</p>
 A tela inicial apresenta o botão de iniciar sessão.
 
-![Tela de Login](docs/Screenshot%202025-02-14%20at%2017-56-58%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-56-58%20VochTech.png" alt="Tela de Login" style="border: 3px solid black; padding: 10px;" />
+</p>
 A tela de login possui duas opções de login: Facebook e Google.
 
-![Painel Administrativo](docs/Screenshot%202025-02-14%20at%2017-57-12%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-57-12%20VochTech.png" alt="Painel Administrativo" style="border: 3px solid black; padding: 10px;" />
+</p>
 A tela do Painel Administrativo fornece acesso às principais funcionalidades do sistema. Nela, é possível realizar operações de CRUD para:
-
 - **Bandeiras**
 - **Grupos Econômicos**
 - **Unidades**
