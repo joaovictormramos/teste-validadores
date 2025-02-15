@@ -64,8 +64,9 @@ A tela do Painel Administrativo fornece acesso às principais funcionalidades do
 - **Grupos Econômicos**
 - **Unidades**
 - **Colaboradores**
-
 No cabeçalho (header), há um botão para **Logout**(ao lado do botão de Painel), permitindo que o usuário encerre sua sessão com facilidade.
+
+_________________________________________________________________________________________________________________
 
 #### 📌 Tela de Grupos Econômicos
 <p align="center">
