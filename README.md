@@ -59,23 +59,33 @@ No cabeçalho (header), há um botão para **Logout**(ao lado do botão de Paine
 ### 📋 Telas do Sistema
 
 #### 📌 Tela de Grupos Econômicos
-![Tela de Grupos Economicos](docs/Screenshot%202025-02-14%20at%2017-57-25%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-57-25%20VochTech.png" alt="Tela de Grupos Economicos" style="border: 2px solid #000; padding: 5px;" />
+</p>
 Nesta tela, é possível listar todos os registros, cadastrar um novo grupo econômico, visualizar detalhes, editar e excluir registros.
 
 #### 📌 Tela de Bandeiras
-![Tela de Bandeiras](docs/Screenshot%202025-02-14%20at%2017-57-31%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-57-31%20VochTech.png" alt="Tela de Bandeiras" style="border: 2px solid #000; padding: 5px;" />
+</p>
 Nesta tela, é possível listar todas as bandeiras cadastradas, adicionar novas, visualizar detalhes, editar e excluir registros.
 
 #### 📌 Tela de Unidades
-![Tela de Unidades](docs/Screenshot%202025-02-14%20at%2017-57-37%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-57-37%20VochTech.png" alt="Tela de Unidades" style="border: 2px solid #000; padding: 5px;" />
+</p>
 Esta tela permite visualizar a lista de unidades cadastradas, adicionar novas unidades, visualizar detalhes, editar e excluir registros.
 
 #### 📌 Tela de Colaboradores
-![Tela de Colaboradores](docs/Screenshot%202025-02-14%20at%2017-57-43%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-57-43%20VochTech.png" alt="Tela de Colaboradores" style="border: 2px solid #000; padding: 5px;" />
+</p>
 Na tela de colaboradores, é possível listar todos os colaboradores cadastrados, adicionar novos, visualizar detalhes, editar e excluir registros.
 
 #### 📌 Tela de Auditoria
-![Tela de Auditoria](docs/Screenshot%202025-02-14%20at%2017-57-50%20VochTech.png)
+<p align="center">
+  <img src="docs/Screenshot%202025-02-14%20at%2017-57-50%20VochTech.png" alt="Tela de Auditoria" style="border: 2px solid #000; padding: 5px;" />
+</p>
 A tela de auditoria exibe um histórico detalhado de todas as ações realizadas no sistema, incluindo registros criados e modificados. Essa funcionalidade permite um acompanhamento preciso das alterações feitas pelos usuários.
 
 ## 📜 Licença
