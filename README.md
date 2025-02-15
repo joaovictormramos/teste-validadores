@@ -74,6 +74,7 @@ Nesta tela, é possível listar todos os registros, cadastrar um novo grupo econ
   <img src="docs/Screenshot%202025-02-14%20at%2017-57-31%20VochTech.png" alt="Tela de Bandeiras" style="border: 2px solid #000; padding: 5px;" />
 </p>
 Nesta tela, é possível listar todas as bandeiras cadastradas, adicionar novas, visualizar detalhes, editar e excluir registros.
+_______________________________________________________________________________________________________________________________________________________________________________
 
 #### 📌 Tela de Unidades
 <p align="center">
