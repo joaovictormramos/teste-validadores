@@ -23,8 +23,8 @@ class UpdateUnidadeRequest extends FormRequest
     {
         $unidadeId = $this->route('unidade')->id;
         return [
-            'nome_fantasia' => 'required|unique:unidades,nome_fantasia' . $unidadeId,
-            'razao_social' => 'required|unique:unidades,razao_social' . $unidadeId,
+            'nome_fantasia' => 'required|unique:unidades,nome_fantasia,' . $unidadeId,
+            'razao_social' => 'required|unique:unidades,razao_social,' . $unidadeId,
             'cnpj' => 'required|cnpj|unique:unidades,cnpj' . $unidadeId,
             'bandeira_id' => 'required'
         ];
