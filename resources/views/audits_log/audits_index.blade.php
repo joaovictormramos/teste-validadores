@@ -28,7 +28,7 @@
                     <div id="oldData{{ $log->id }}" class="collapse mt-2">
                         @if($log->valor_antigo)
                         <p title="{{ $log->valor_antigo }}" style="display: block; max-width: none; white-space: normal; overflow: visible; text-overflow: unset;">
-                            {{ $log->valor_antigo }}
+                            {{ urldecode($log->valor_antigo) }}
                         </p>
                         @else
                         <p class="text-muted">Nenhum valor antigo</p>
@@ -42,7 +42,7 @@
                     <div id="newData{{ $log->id }}" class="collapse mt-2">
                         @if($log->novo_valor)
                         <p title="{{ $log->novo_valor }}" style="display: block; max-width: none; white-space: normal; overflow: visible; text-overflow: unset;">
-                            {{ $log->novo_valor }}
+                            {{ urldecode($log->novo_valor) }}
                         </p>
                         @else
                         <p class="text-muted">Nenhum valor novo</p>
