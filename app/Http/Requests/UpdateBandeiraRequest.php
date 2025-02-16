@@ -23,8 +23,8 @@ class UpdateBandeiraRequest extends FormRequest
     {
         $bandeiraId = $this->route('bandeira')->id;
         return [
-            'band_name' => 'required|unique:bandeiras,band_name' . $bandeiraId,
-            'cnpj' => 'required|cnpj|unique:bandeiras,cnpj' . $bandeiraId,
+            'band_name' => 'required|unique:bandeiras,band_name,' . $bandeiraId,
+            'cnpj' => 'required|cnpj|unique:bandeiras,cnpj,' . $bandeiraId,
             'grupo_economico_id' => 'required'
         ];
     }
