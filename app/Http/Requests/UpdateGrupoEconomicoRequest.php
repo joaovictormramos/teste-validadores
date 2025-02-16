@@ -24,7 +24,7 @@ class UpdateGrupoEconomicoRequest extends FormRequest
         $grupoId = $this->route('grupo')->id;
         return [
             'group_name' => 'required',
-            'cnpj' => 'required|cnpj|unique:grupo_economicos,cnpj' . $grupoId,
+            'cnpj' => 'required|cnpj|unique:grupo_economicos,cnpj,' . $grupoId,
         ];
     }
 
