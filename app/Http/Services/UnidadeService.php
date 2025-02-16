@@ -22,7 +22,7 @@ class UnidadeService
     public function create(array $data)
     {
         $unidade = Unidade::create($data);
-        $this->logAudit('unidades', $unidade->id, 'created', null, $data);
+        $this->logAudit('unidades', $unidade->id, 'CRIAR', null, $data);
         return $unidade;
     }
 
@@ -31,7 +31,7 @@ class UnidadeService
         $unidade = Unidade::findOrFail($id);
         $oldData = $unidade->toArray();
         $unidade->update($data);
-        $this->logAudit('unidades', $unidade->id, 'updated', $oldData, $data);
+        $this->logAudit('unidades', $unidade->id, 'ATUALIZAR', $oldData, $data);
         return $unidade;
     }
 
@@ -40,6 +40,6 @@ class UnidadeService
         $unidade = Unidade::findOrFail($id);
         $oldData = $unidade->toArray();
         $unidade->delete();
-        $this->logAudit('unidades', $id, 'deleted', $oldData, null);
+        $this->logAudit('unidades', $id, 'DELETAR', $oldData, null);
     }
 }

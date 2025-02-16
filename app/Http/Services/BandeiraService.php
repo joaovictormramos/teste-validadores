@@ -23,7 +23,7 @@ class BandeiraService
     public function create(array $data)
     {
         $bandeira = Bandeira::create($data);
-        $this->logAudit('bandeiras', $bandeira->id, 'created', null, $data);
+        $this->logAudit('bandeiras', $bandeira->id, 'CRIAR', null, $data);
         return $bandeira;
     }
 
@@ -32,7 +32,7 @@ class BandeiraService
         $bandeira = Bandeira::findOrFail($id);
         $oldData = $bandeira->toArray();
         $bandeira->update($data);
-        $this->logAudit('bandeiras', $bandeira->id, 'updated', $oldData, $data);
+        $this->logAudit('bandeiras', $bandeira->id, 'ATUALIZAR', $oldData, $data);
         return $bandeira;
     }
 
@@ -41,6 +41,6 @@ class BandeiraService
         $bandeira = Bandeira::findOrFail($id);
         $oldData = $bandeira->toArray();
         $bandeira->delete();
-        $this->logAudit('bandeiras', $bandeira->id, 'deleted', $oldData, null);
+        $this->logAudit('bandeiras', $bandeira->id, 'DELETAR', $oldData, null);
     }
 }

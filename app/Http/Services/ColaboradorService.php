@@ -22,7 +22,7 @@ class ColaboradorService
     public function create(array $data)
     {
         $colaborador = Colaborador::create($data);
-        $this->logAudit('colaboradores', $colaborador->id, 'created', null, $data);
+        $this->logAudit('colaboradores', $colaborador->id, 'CRIAR', null, $data);
         return $colaborador;
     }
 
@@ -31,7 +31,7 @@ class ColaboradorService
         $colaborador = Colaborador::findOrFail($id);
         $oldData = $colaborador->toArray();
         $colaborador->update($data);
-        $this->logAudit('colaboradores', $colaborador->id, 'updated', $oldData, $data);
+        $this->logAudit('colaboradores', $colaborador->id, 'ATUALIZAR', $oldData, $data);
         return $colaborador;
     }
 
@@ -40,6 +40,6 @@ class ColaboradorService
         $colaborador = Colaborador::findOrFail($id);
         $oldData = $colaborador->toArray();
         $colaborador->delete();
-        $this->logAudit('colaboradores', $colaborador->id, 'deleted', $oldData, null);
+        $this->logAudit('colaboradores', $colaborador->id, 'DELETAR', $oldData, null);
     }
 }

@@ -22,7 +22,7 @@ class GrupoEconomicoService
     public function create(array $data)
     {
         $grupo = GrupoEconomico::create($data);
-        $this->logAudit('grupo_economico', $grupo->id, 'created', null, $data);
+        $this->logAudit('grupo_economico', $grupo->id, 'CRIAR', null, $data);
         return $grupo;
     }
 
@@ -31,7 +31,7 @@ class GrupoEconomicoService
         $grupo = GrupoEconomico::findOrFail($id);
         $oldData = $grupo->toArray();
         $grupo->update($data);
-        $this->logAudit('grupo_economico', $grupo->id, 'updated', $oldData, $data);
+        $this->logAudit('grupo_economico', $grupo->id, 'ATUALIZAR', $oldData, $data);
         return $grupo;
     }
 
@@ -40,6 +40,6 @@ class GrupoEconomicoService
         $grupo = GrupoEconomico::findOrFail($id);
         $oldData = $grupo->toArray();
         $grupo->delete();
-        $this->logAudit('grupo_economico', $id, 'deleted', $oldData, null);
+        $this->logAudit('grupo_economico', $id, 'DELETAR', $oldData, null);
     }
 }
